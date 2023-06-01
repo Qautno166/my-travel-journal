@@ -1,0 +1,104 @@
+body,
+html {
+  height: auto;
+  width: 550px;
+  display: flex;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 768px) {
+  /* CSS rules for screens up to 768px width */
+  /* e.g., adjusting font sizes, margins, or hiding/showing elements */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS rules for screens between 768px and 1024px width */
+}
+
+@media (min-width: 1025px) {
+  /* CSS rules for screens larger than 1024px width */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+div {
+  height: auto;
+  width: 550px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text {
+  color: azure;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 7px;
+}
+h3 {
+  margin-top: 7px;
+  margin-bottom: 9px;
+}
+p {
+  margin: 0px;
+}
+
+.cards {
+  width: 550px;
+  height: 248px;
+  left: 39px;
+  padding-top: 41px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.upper {
+  margin-top: 20px;
+}
+
+.pic {
+  left: 39px;
+
+  border-radius: 10%;
+}
+.main {
+  padding-left: 10px;
+  width: 345px;
+  height: 168px;
+}
